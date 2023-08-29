@@ -52,8 +52,68 @@ body {
 
 }
 
- .flower {
+.flower {
     padding: 50px 240px 0 0;
-    
 
+
+}
+
+/* Featured styles */
+.Featured {
+    margin-top: 178px;
+    text-align: center;
+}
+
+.Featured-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.Featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.Pink-Flower-Tree{
+    text-align: center;
+}
+
+.flower-bacground-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    padding: 110px 78px 0 76px;
+    margin: 48px 0 32px 0;
+}
+.flower-bacground-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    padding: 110px 78px 0 76px;
+    margin: 48px 0 32px 0;
+}
+.flower-bacground-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    padding: 110px 78px 0 76px;
+    margin: 48px 0 32px 0;
+}
+
+.Flower-Tree-description {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.Flower-Tree{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    margin: 0px 240px 0 240px;
 }
