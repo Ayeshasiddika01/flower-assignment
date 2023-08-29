@@ -248,8 +248,40 @@ input[type="email"] {
     border: 0;
 }
 
-.input-details{
+.input-details {
     display: flex;
     gap: 16px;
-    
+
+}
+
+/* footer styles */
+footer {
+    background: #111010;
+}
+.footer-info{
+    text-align: center;
+    padding: 128px 648px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.pink{
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.footer-small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
