@@ -150,7 +150,7 @@ body {
 .hot-deal {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    
+
 
 }
 
@@ -178,6 +178,34 @@ span {
     font-weight: 400;
     margin-bottom: 32px;
 }
-.hot-deal-info{
+
+.hot-deal-info {
     text-align: center;
+}
+
+/* instagram styles */
+.instagram{
+   margin: 128px 240px;
+}
+.instagram-details{
+    text-align: center;
+}
+.instagram-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48;
+}
+.instagram-images{
+    display: flex;
+    margin-top: 48px;
+    gap: 24px;
+    
 }
