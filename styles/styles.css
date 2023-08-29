@@ -184,12 +184,14 @@ span {
 }
 
 /* instagram styles */
-.instagram{
-   margin: 128px 240px;
+.instagram {
+    margin: 128px 240px;
 }
-.instagram-details{
+
+.instagram-details {
     text-align: center;
 }
+
 .instagram-title {
     color: #272727;
     font-size: 40px;
@@ -203,9 +205,51 @@ span {
     font-weight: 400;
     margin-bottom: 48;
 }
-.instagram-images{
+
+.instagram-images {
     display: flex;
     margin-top: 48px;
     gap: 24px;
+
+}
+
+/* subscribe styles */
+.subscribe {
+    background-image: url('../Flower asset/Rectangle\ 9.png');
+    margin: 128px 240px;
+    height: 449px;
+}
+
+.subscribe-details {
+    text-align: center;
+    padding: 122px 287px;
+}
+
+.subscribe-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.subscribe-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+input[type="email"] {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    padding-left: 22px;
+    border: 0;
+}
+
+.input-details{
+    display: flex;
+    gap: 16px;
     
 }
